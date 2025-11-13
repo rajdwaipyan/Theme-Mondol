@@ -1,0 +1,305 @@
+/**
+ * Elementor Compatibility Styles
+ * Additional styles for better Elementor integration
+ */
+
+/* Elementor Container Compatibility */
+.elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-column {
+    margin-bottom: 20px;
+}
+
+/* Elementor Widget Spacing */
+.elementor-widget-container {
+    padding: 0 15px;
+}
+
+/* Elementor Section Padding */
+.elementor-section {
+    padding: 30px 0;
+}
+
+/* Elementor Text Editor */
+.elementor-widget-text-editor p {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Elementor Heading */
+.elementor-widget-heading .elementor-heading-title {
+    margin: 0;
+    padding: 0;
+}
+
+/* Elementor Image */
+.elementor-widget-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Elementor Button */
+.elementor-button {
+    padding: 12px 30px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.elementor-button:hover {
+    transform: translateY(-2px);
+}
+
+/* Elementor Form */
+.elementor-form-fields-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.elementor-field-group {
+    margin-bottom: 0;
+}
+
+.elementor-field {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.elementor-field:focus {
+    outline: none;
+    border-color: #007cba;
+    box-shadow: 0 0 0 3px rgba(0, 124, 186, 0.1);
+}
+
+/* Elementor Video */
+.elementor-widget-video .elementor-video-iframe {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Elementor Icon */
+.elementor-widget-icon .elementor-icon-wrapper {
+    text-align: center;
+}
+
+/* Elementor Icon Box */
+.elementor-widget-icon-box .elementor-icon-box-content {
+    text-align: center;
+}
+
+/* Elementor Testimonial */
+.elementor-widget-testimonial .elementor-testimonial {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #007cba;
+}
+
+/* Elementor Counter */
+.elementor-widget-counter .elementor-counter-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #007cba;
+}
+
+/* Elementor Progress */
+.elementor-widget-progress .elementor-progress-wrapper {
+    margin-bottom: 20px;
+}
+
+.elementor-progress-bar {
+    background-color: #007cba;
+}
+
+/* Elementor Alert */
+.elementor-alert {
+    padding: 15px;
+    border-radius: 4px;
+    border-left: 4px solid;
+}
+
+.elementor-alert-success {
+    background-color: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+}
+
+.elementor-alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffc107;
+    color: #856404;
+}
+
+.elementor-alert-danger {
+    background-color: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+}
+
+.elementor-alert-info {
+    background-color: #d1ecf1;
+    border-color: #17a2b8;
+    color: #0c5460;
+}
+
+/* Elementor Tabs */
+.elementor-tabs .elementor-tabs-heading {
+    border-bottom: 2px solid #ddd;
+}
+
+.elementor-tabs .elementor-tab-title.elementor-active {
+    border-bottom-color: #007cba;
+    color: #007cba;
+}
+
+/* Elementor Accordion */
+.elementor-accordion .elementor-accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.elementor-accordion-button {
+    background-color: #f9f9f9;
+    padding: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.elementor-accordion-button:hover {
+    background-color: #f0f0f0;
+}
+
+.elementor-accordion-button.active {
+    background-color: #007cba;
+    color: #fff;
+}
+
+/* Elementor Toggle */
+.elementor-toggle .elementor-toggle-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Elementor Divider */
+.elementor-divider {
+    margin: 30px 0;
+}
+
+.elementor-divider--border {
+    border-top: 2px solid #ddd;
+}
+
+/* Elementor Spacer */
+.elementor-spacer {
+    clear: both;
+}
+
+/* Elementor Widget Title */
+.elementor-element .elementor-widget-heading .elementor-widget-container h1,
+.elementor-element .elementor-widget-heading .elementor-widget-container h2,
+.elementor-element .elementor-widget-heading .elementor-widget-container h3,
+.elementor-element .elementor-widget-heading .elementor-widget-container h4,
+.elementor-element .elementor-widget-heading .elementor-widget-container h5,
+.elementor-element .elementor-widget-heading .elementor-widget-container h6 {
+    margin: 0;
+}
+
+/* Elementor Gallery */
+.elementor-gallery {
+    display: grid;
+    gap: 15px;
+}
+
+.elementor-gallery-item {
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.elementor-gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.elementor-gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Elementor Social Icons */
+.elementor-social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #007cba;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.elementor-social-icon:hover {
+    background-color: #005a87;
+    transform: translateY(-3px);
+}
+
+/* Elementor Search Form */
+.elementor-search-form {
+    display: flex;
+    gap: 5px;
+}
+
+.elementor-search-form input {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.elementor-search-form button {
+    padding: 10px 20px;
+    background-color: #007cba;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsive Elementor Adjustments */
+@media (max-width: 768px) {
+    .elementor-column {
+        margin-bottom: 15px;
+    }
+
+    .elementor-section {
+        padding: 20px 0;
+    }
+
+    .elementor-container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .elementor-container {
+        padding: 0 10px;
+    }
+
+    .elementor-widget-container {
+        padding: 0 10px;
+    }
+
+    .elementor-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
